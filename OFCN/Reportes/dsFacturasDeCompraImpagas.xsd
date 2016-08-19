@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFacturasDeCompraImpagas" targetNamespace="http://tempuri.org/dsFacturasDeCompraImpagas.xsd" xmlns:mstns="http://tempuri.org/dsFacturasDeCompraImpagas.xsd" xmlns="http://tempuri.org/dsFacturasDeCompraImpagas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFacturasDeCompraImpagas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsFacturasDeCompraImpagas" msprop:Generator_UserDSName="dsFacturasDeCompraImpagas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDatosProveedor" msprop:Generator_TableClassName="dtDatosProveedorDataTable" msprop:Generator_TableVarName="tabledtDatosProveedor" msprop:Generator_TablePropName="dtDatosProveedor" msprop:Generator_RowDeletingName="dtDatosProveedorRowDeleting" msprop:Generator_UserTableName="dtDatosProveedor" msprop:Generator_RowChangingName="dtDatosProveedorRowChanging" msprop:Generator_RowEvHandlerName="dtDatosProveedorRowChangeEventHandler" msprop:Generator_RowDeletedName="dtDatosProveedorRowDeleted" msprop:Generator_RowEvArgName="dtDatosProveedorRowChangeEvent" msprop:Generator_RowChangedName="dtDatosProveedorRowChanged" msprop:Generator_RowClassName="dtDatosProveedorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_proveedor" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="cod_proveedor" msprop:Generator_ColumnVarNameInTable="columncod_proveedor" msprop:Generator_ColumnPropNameInTable="cod_proveedorColumn" msprop:Generator_UserColumnName="cod_proveedor" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre_proveedor" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="nombre_proveedor" msprop:Generator_ColumnVarNameInTable="columnnombre_proveedor" msprop:Generator_ColumnPropNameInTable="nombre_proveedorColumn" msprop:Generator_UserColumnName="nombre_proveedor" type="xs:string" minOccurs="0" />
+              <xs:element name="saldo" msprop:Generator_ColumnVarNameInTable="columnsaldo" msprop:Generator_ColumnPropNameInRow="saldo" msprop:Generator_ColumnPropNameInTable="saldoColumn" msprop:Generator_UserColumnName="saldo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="titulo" msprop:Generator_ColumnVarNameInTable="columntitulo" msprop:Generator_ColumnPropNameInRow="titulo" msprop:Generator_ColumnPropNameInTable="tituloColumn" msprop:Generator_UserColumnName="titulo" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtFacturasDeCompraImpagas" msprop:Generator_TableClassName="dtFacturasDeCompraImpagasDataTable" msprop:Generator_TableVarName="tabledtFacturasDeCompraImpagas" msprop:Generator_TablePropName="dtFacturasDeCompraImpagas" msprop:Generator_RowDeletingName="dtFacturasDeCompraImpagasRowDeleting" msprop:Generator_UserTableName="dtFacturasDeCompraImpagas" msprop:Generator_RowChangingName="dtFacturasDeCompraImpagasRowChanging" msprop:Generator_RowEvHandlerName="dtFacturasDeCompraImpagasRowChangeEventHandler" msprop:Generator_RowDeletedName="dtFacturasDeCompraImpagasRowDeleted" msprop:Generator_RowEvArgName="dtFacturasDeCompraImpagasRowChangeEvent" msprop:Generator_RowChangedName="dtFacturasDeCompraImpagasRowChanged" msprop:Generator_RowClassName="dtFacturasDeCompraImpagasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fecha_factura" msprop:Generator_ColumnVarNameInTable="columnfecha_factura" msprop:Generator_ColumnPropNameInRow="fecha_factura" msprop:Generator_ColumnPropNameInTable="fecha_facturaColumn" msprop:Generator_UserColumnName="fecha_factura" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tipo_comprobante_factura" msprop:Generator_ColumnVarNameInTable="columntipo_comprobante_factura" msprop:Generator_ColumnPropNameInRow="tipo_comprobante_factura" msprop:Generator_ColumnPropNameInTable="tipo_comprobante_facturaColumn" msprop:Generator_UserColumnName="tipo_comprobante_factura" type="xs:string" minOccurs="0" />
+              <xs:element name="nro_comprobante_factura" msprop:Generator_ColumnVarNameInTable="columnnro_comprobante_factura" msprop:Generator_ColumnPropNameInRow="nro_comprobante_factura" msprop:Generator_ColumnPropNameInTable="nro_comprobante_facturaColumn" msprop:Generator_UserColumnName="nro_comprobante_factura" type="xs:string" minOccurs="0" />
+              <xs:element name="importe_total_factura" msprop:Generator_ColumnVarNameInTable="columnimporte_total_factura" msprop:Generator_ColumnPropNameInRow="importe_total_factura" msprop:Generator_ColumnPropNameInTable="importe_total_facturaColumn" msprop:Generator_UserColumnName="importe_total_factura" type="xs:decimal" minOccurs="0" />
+              <xs:element name="importe_total_pagado" msprop:Generator_ColumnVarNameInTable="columnimporte_total_pagado" msprop:Generator_ColumnPropNameInRow="importe_total_pagado" msprop:Generator_ColumnPropNameInTable="importe_total_pagadoColumn" msprop:Generator_UserColumnName="importe_total_pagado" type="xs:decimal" minOccurs="0" />
+              <xs:element name="importe_total_adeudado" msprop:Generator_ColumnVarNameInTable="columnimporte_total_adeudado" msprop:Generator_ColumnPropNameInRow="importe_total_adeudado" msprop:Generator_ColumnPropNameInTable="importe_total_adeudadoColumn" msprop:Generator_UserColumnName="importe_total_adeudado" type="xs:decimal" minOccurs="0" />
+              <xs:element name="fecha_orden_de_pago" msprop:Generator_ColumnVarNameInTable="columnfecha_orden_de_pago" msprop:Generator_ColumnPropNameInRow="fecha_orden_de_pago" msprop:Generator_ColumnPropNameInTable="fecha_orden_de_pagoColumn" msprop:Generator_UserColumnName="fecha_orden_de_pago" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nro_comprobante_orden_de_pago" msprop:Generator_ColumnVarNameInTable="columnnro_comprobante_orden_de_pago" msprop:Generator_ColumnPropNameInRow="nro_comprobante_orden_de_pago" msprop:Generator_ColumnPropNameInTable="nro_comprobante_orden_de_pagoColumn" msprop:Generator_UserColumnName="nro_comprobante_orden_de_pago" type="xs:string" minOccurs="0" />
+              <xs:element name="importe_pagado" msprop:Generator_ColumnVarNameInTable="columnimporte_pagado" msprop:Generator_ColumnPropNameInRow="importe_pagado" msprop:Generator_ColumnPropNameInTable="importe_pagadoColumn" msprop:Generator_UserColumnName="importe_pagado" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

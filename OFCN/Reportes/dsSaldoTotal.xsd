@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSaldoTotal" targetNamespace="http://tempuri.org/dsSaldoTotal.xsd" xmlns:mstns="http://tempuri.org/dsSaldoTotal.xsd" xmlns="http://tempuri.org/dsSaldoTotal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSaldoTotal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsSaldoTotal" msprop:Generator_UserDSName="dsSaldoTotal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtSaldoTotal" msprop:Generator_TableClassName="dtSaldoTotalDataTable" msprop:Generator_TableVarName="tabledtSaldoTotal" msprop:Generator_TablePropName="dtSaldoTotal" msprop:Generator_RowDeletingName="dtSaldoTotalRowDeleting" msprop:Generator_UserTableName="dtSaldoTotal" msprop:Generator_RowChangingName="dtSaldoTotalRowChanging" msprop:Generator_RowEvHandlerName="dtSaldoTotalRowChangeEventHandler" msprop:Generator_RowDeletedName="dtSaldoTotalRowDeleted" msprop:Generator_RowEvArgName="dtSaldoTotalRowChangeEvent" msprop:Generator_RowChangedName="dtSaldoTotalRowChanged" msprop:Generator_RowClassName="dtSaldoTotalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_cliente" msprop:Generator_ColumnVarNameInTable="columncod_cliente" msprop:Generator_ColumnPropNameInRow="cod_cliente" msprop:Generator_ColumnPropNameInTable="cod_clienteColumn" msprop:Generator_UserColumnName="cod_cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre_cliente" msprop:Generator_ColumnVarNameInTable="columnnombre_cliente" msprop:Generator_ColumnPropNameInRow="nombre_cliente" msprop:Generator_ColumnPropNameInTable="nombre_clienteColumn" msprop:Generator_UserColumnName="nombre_cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="saldo_positivo" msprop:Generator_ColumnVarNameInTable="columnsaldo_positivo" msprop:Generator_ColumnPropNameInRow="saldo_positivo" msprop:Generator_ColumnPropNameInTable="saldo_positivoColumn" msprop:Generator_UserColumnName="saldo_positivo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="saldo_negativo" msprop:Generator_ColumnVarNameInTable="columnsaldo_negativo" msprop:Generator_ColumnPropNameInRow="saldo_negativo" msprop:Generator_ColumnPropNameInTable="saldo_negativoColumn" msprop:Generator_UserColumnName="saldo_negativo" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtDescripcion" msprop:Generator_TableClassName="dtDescripcionDataTable" msprop:Generator_TableVarName="tabledtDescripcion" msprop:Generator_TablePropName="dtDescripcion" msprop:Generator_RowDeletingName="dtDescripcionRowDeleting" msprop:Generator_UserTableName="dtDescripcion" msprop:Generator_RowChangingName="dtDescripcionRowChanging" msprop:Generator_RowEvHandlerName="dtDescripcionRowChangeEventHandler" msprop:Generator_RowDeletedName="dtDescripcionRowDeleted" msprop:Generator_RowEvArgName="dtDescripcionRowChangeEvent" msprop:Generator_RowChangedName="dtDescripcionRowChanged" msprop:Generator_RowClassName="dtDescripcionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="saldo_total" msprop:Generator_ColumnVarNameInTable="columnsaldo_total" msprop:Generator_ColumnPropNameInRow="saldo_total" msprop:Generator_ColumnPropNameInTable="saldo_totalColumn" msprop:Generator_UserColumnName="saldo_total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,5 @@
+C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC\BK_DB_OFC\bin\Debug\BK_DB_OFC.exe
+C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC\BK_DB_OFC\bin\Debug\BK_DB_OFC.pdb
+C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC\BK_DB_OFC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC\BK_DB_OFC\obj\x86\Debug\BK_DB_OFC.exe
+C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC\BK_DB_OFC\obj\x86\Debug\BK_DB_OFC.pdb
