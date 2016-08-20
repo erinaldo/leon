@@ -154,3 +154,6 @@ C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC-v2.3\OFC\obj\x86\Debug\O
 C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC-v2.3\OFC\obj\x86\Debug\OFC.frmTipoDeAsientoContable.resources
 C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC-v2.3\OFC\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Fede\Documents\Visual Studio 2010\Projects\OFC-v2.3\OFC\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Fede\Documents\Visual Studio 2010\Projects\Leon\OFC\bin\Debug\OFC.exe.config
+C:\Users\Fede\Documents\Visual Studio 2010\Projects\Leon\OFC\obj\x86\Debug\OFC.exe
+C:\Users\Fede\Documents\Visual Studio 2010\Projects\Leon\OFC\obj\x86\Debug\OFC.pdb
