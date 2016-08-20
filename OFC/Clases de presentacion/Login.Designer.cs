@@ -76,9 +76,9 @@
             this.lblEmpresa.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.lblEmpresa.Location = new System.Drawing.Point(217, 105);
             this.lblEmpresa.Name = "lblEmpresa";
-            this.lblEmpresa.Size = new System.Drawing.Size(82, 16);
+            this.lblEmpresa.Size = new System.Drawing.Size(58, 16);
             this.lblEmpresa.TabIndex = 103;
-            this.lblEmpresa.Text = "Organización";
+            this.lblEmpresa.Text = "Empresa";
             // 
             // pbxViter
             // 
