@@ -2480,7 +2480,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Sistema OFC"
         "ProductCode" = "8:{721C3097-4170-4A86-8C91-AB584E45570E}"
-        "PackageCode" = "8:{EB5A329A-6E3E-4AA1-9A7C-F5D713DC3C9D}"
+        "PackageCode" = "8:{9EDBE267-83D8-4DDA-90E2-240D26E81DDC}"
         "UpgradeCode" = "8:{2F57D690-0BA0-4D99-9593-665E65E5A847}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
