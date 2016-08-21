@@ -2233,7 +2233,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Sistema OFCN"
         "ProductCode" = "8:{45A652D1-6F7B-420A-8BF9-63118D66BC25}"
-        "PackageCode" = "8:{88498E10-08BB-463A-A94D-61AC09A11AE0}"
+        "PackageCode" = "8:{141AF215-381A-47E9-97F1-75E7D7ADF25B}"
         "UpgradeCode" = "8:{946FC9FC-BBF3-4D75-AC09-613DC89109CA}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
