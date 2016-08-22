@@ -284,6 +284,8 @@ namespace OFC
             return idProveedor;
         }
 
+
+        //obtener una lista de los comprobantes en base a los datos del proveedor o numeración
         public static List<ComprobanteCompraDTO> obtenerComprobantes(FiltrosABMProveedor filtro)
         {
 
@@ -359,6 +361,7 @@ namespace OFC
             return lista;
         }
 
+        //obtener el identificador de origen de una factura
         public static long obtenerIdOrigenFacturaA(string cod_comprobante)
         {
             long idFactura = -1;

@@ -57,6 +57,7 @@ namespace OFC
             id_proveedor = String.Empty;
         }
 
+        //insertar cuenta corriente del proveedor
         public static void insertar(string idProveedor)
         {
             NpgsqlConnection cn = BaseDeDatos.obtenerConexion();
