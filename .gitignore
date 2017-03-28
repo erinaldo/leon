@@ -1,6 +1,6 @@
-.OFC/OFC.csproj
-.OFC/bin/Debug/OFC.exe
-.OFC/bin/Debug/OFC.pdb
-.OFC/bin/Debug/OFC.vshost.exe.manifest
-.OFC/obj/x86/Debug/OFC.exe
-.OFC/obj/x86/Debug/OFC.pdb
+OFC.csproj
+OFC.exe
+OFC.pdb
+OFC.vshost.exe.manifest
+OFC.exe
+OFC.pdb
