@@ -9,5 +9,13 @@ namespace Compra
     {
         //probando generación de archivo
         //hay que definir los atributos de la clase
+        //hay que definir los métodos de la clase
+        int i;
+
+        public int I
+        {
+            get { return i; }
+            set { i = value; }
+        }
     }
 }
