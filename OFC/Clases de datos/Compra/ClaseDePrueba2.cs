@@ -9,10 +9,8 @@ namespace OFC
         int i=0;
 
         //metodo del triangulo
-
-
         //lalallala
-
         //otra cosa
+
     }
 }
