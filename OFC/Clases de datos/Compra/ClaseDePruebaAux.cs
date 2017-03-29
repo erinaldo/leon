@@ -18,5 +18,7 @@ namespace Compra
             set { i = value; }
         }
         //nueva linea
+
+        //otra linea de codigo comentada
     }
 }
