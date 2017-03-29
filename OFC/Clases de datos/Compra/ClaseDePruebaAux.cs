@@ -10,7 +10,7 @@ namespace Compra
         //probando generación de archivo
         //hay que definir los atributos de la clase
         //hay que definir los métodos de la clase
-        int i;
+        int i; //comentando
 
         public int I
         {
