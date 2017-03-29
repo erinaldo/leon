@@ -8,5 +8,6 @@ namespace Compra
     class ClaseDePrueba
     {
         //probando generación de archivo
+        //nueva linea
     }
 }
