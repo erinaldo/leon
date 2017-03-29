@@ -7,5 +7,7 @@ namespace OFC
     class ClaseDePrueba2
     {
         int i=0;
+
+        //metodo del triangulo
     }
 }
