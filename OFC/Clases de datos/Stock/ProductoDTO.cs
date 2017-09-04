@@ -110,6 +110,7 @@ namespace OFC
 
         public ProductoDTO()
         {
+            //new id
             id = -1;
             descripcion = "";
             es_cubierta = 'N';
