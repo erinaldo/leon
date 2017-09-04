@@ -97,6 +97,8 @@ namespace OFC
             set { v_fecha_contable = value; }
         }
 
+        //int i = 0;
+
         public ComprobanteCompraDTO()
         {
             id_tipo_comprobante = -1;

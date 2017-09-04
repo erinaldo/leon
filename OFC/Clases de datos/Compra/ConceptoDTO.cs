@@ -17,6 +17,8 @@ namespace OFC
             set { id = value; }
         }
 
+        //j = 0;
+
         string descripcion;
 
         public string Descripcion
