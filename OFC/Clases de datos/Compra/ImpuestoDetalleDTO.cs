@@ -17,6 +17,8 @@ namespace OFC
             set { id_factura = value; }
         }
 
+        //gg
+
         long id_impuesto;
 
         public long Id_impuesto
