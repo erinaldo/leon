@@ -110,7 +110,7 @@ namespace OFC
 
         public ProductoDTO()
         {
-            id = -1;
+            id = -1; //new id local
             descripcion = "";
             es_cubierta = 'N';
             vigente = 'N';
