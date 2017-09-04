@@ -19,6 +19,9 @@ namespace OFC
 
         //bug arreglado
 
+
+        //commit es master
+
         long id_impuesto;
 
         public long Id_impuesto
