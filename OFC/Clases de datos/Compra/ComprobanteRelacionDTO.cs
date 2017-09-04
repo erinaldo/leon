@@ -11,6 +11,8 @@ namespace OFC
     {
         string id_proveedor;
 
+        //nueva relacion para la factura electronica
+
         public string Id_proveedor
         {
             get { return id_proveedor; }
