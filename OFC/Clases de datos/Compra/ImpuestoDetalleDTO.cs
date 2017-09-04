@@ -19,6 +19,8 @@ namespace OFC
 
         //gg
 
+        //gggggggg
+
         long id_impuesto;
 
         public long Id_impuesto
